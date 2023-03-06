@@ -1,0 +1,46 @@
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__description{
+    font-weight:bold;
+    text-align: center;
+}
+
+.contact__form{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background:#EAF2FD;
+}
+
+.contact__input-group{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+
+.contact__title-message, .contact__message{
+    padding: .2rem;
+}
+
+.contact__input{
+    width: 34rem;
+    height: 3rem;
+    border-style: none;
+    padding: 2px;
+}
+
+.contact__submit{
+    margin: 0 auto;
+    width: 20rem;
+    padding: 1em;
+    background: #FFF;
+}
+
+.contact__submit:hover{
+    background: #F9B33D;
+}

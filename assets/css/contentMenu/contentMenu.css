@@ -1,0 +1,38 @@
+.contentMenu{
+    align-items: center;
+    background-color: #EAF2FD;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.menuNav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.optionNav{
+    list-style: none;
+    padding: 1rem;
+    border: 1px solid black;
+    margin: .5rem;
+    border-radius: 5px;
+}
+
+.optionNav:hover{
+    background: #F9B33D;
+}
+
+.navLink{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+@media(max-width:760px){
+    .contentMenu, .menuNav{
+        flex-direction: column;
+        width: 100%;
+    }
+}

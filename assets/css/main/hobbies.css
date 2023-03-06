@@ -1,0 +1,29 @@
+#hobbies{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+}
+
+.section__title{
+    margin: 1em;
+    text-align: center;
+}
+
+.hobbies__content-hobbies{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-hobbies__item{
+    width: 5rem;
+    background:#FFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    box-shadow: 2px 2px 2px black;
+}
+
+.hobbies__name{
+    font-weight: bold;
+}

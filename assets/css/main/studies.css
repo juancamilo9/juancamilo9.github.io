@@ -1,0 +1,28 @@
+#studies{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+    background-color: #EAF2FD;
+    padding-bottom: 2rem;
+}
+
+.studies__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.studies__item{
+    align-items: center;
+    width: 10rem;
+    background:#FFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    box-shadow: 2px 2px 2px black;
+}
+
+.studies__item-logo{
+    width: 9rem;
+}

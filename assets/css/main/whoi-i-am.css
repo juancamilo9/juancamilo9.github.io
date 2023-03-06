@@ -1,0 +1,24 @@
+#who-i-am{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.who-i-am__name{
+    text-align: center;
+}
+
+.who-i-am__description{
+    margin: 1.5rem 1.5rem;
+    text-align: justify;
+}
+
+.who-i-am__social-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.who-i-am__social_github, .who-i-am__social_linkedin, .who-i-am__social_discord{
+    text-decoration: none;
+    list-style: none;
+}

@@ -1,0 +1,34 @@
+#skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+    background-color: #F2F5F7;
+    padding-bottom: 2rem;
+}
+
+.skills__content-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skills__item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: .5rem;
+    border: 1px solid black;
+    width: 10rem;
+    box-shadow: 2px 2px 2px black;
+    background: #FFF;
+    padding: .2rem;
+}
+
+.skills__item-logo{
+    width: 8rem;
+}
+
+.skills__item-name{
+    font-weight: bold;
+    padding: .5rem;
+}

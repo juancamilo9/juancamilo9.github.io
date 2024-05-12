@@ -1,5 +1,15 @@
 import { ProyectoItemType, InfoPersonalType, InfoWorkType, SkillsType } from "../types"
-
+import clonGoogle from '../assets/img/google.png'
+import consumoPropina from '../assets/img/consumoPropina.png'
+import dojoTime from '../assets/img/dojoTime.png'
+import landingPage from '../assets/img/landingpage.png' 
+import controlCitas from '../assets/img/controlCitas.png'
+import react_svg from '../assets/img/react.svg'
+import typescript_svg from '../assets/img/typescript.svg'
+import bootstrap_svg from '../assets/img/bootstrap.svg'
+import html_svg from '../assets/img/html5.svg'
+import css_svg from '../assets/img/css.svg'
+import javascript_svg from '../assets/img/javascript.svg'
 
 export const infoPersonal: InfoPersonalType = {
     nombre: "Juan Camilo",
@@ -15,35 +25,35 @@ export const infoPersonal: InfoPersonalType = {
 export const proyectos: ProyectoItemType[] = [
     {
         id: 1,
-        imagen: "../../public/img/google.png",
+        imagen: clonGoogle,
         nombre: "Clon de Google",
         descripcion: "Replica de páigna Google.com",
         url: "https://clon-google-sigma.vercel.app/"
     },
     {
         id: 2,
-        imagen: "../../public/img/dojoTime.png",
+        imagen: dojoTime,
         nombre: "Time Dojo",
         descripcion: "Página estática sobre el tiempo en algunas ciudades",
         url: "https://time-dojo-prueba.vercel.app/"
     },
     {
         id: 3,
-        imagen: "../../public/img/landingpage.png",
+        imagen: landingPage,
         nombre: "Landing page con resposive",
         descripcion: "Landigpage desarrollada con Bootstrap y HTML",
         url: "https://landin-page-bootstarp5.vercel.app/?name=asa&profesion=asas&email=colombiana01%40distrisgc.com#contact"
     },
     {
         id: 4,
-        imagen: "../../public/img/consumoPropina.png",
+        imagen:consumoPropina,
         nombre: "Consumo restaurante",
         descripcion: "Calcula el valor de un pedido y su propina",
         url: "https://consumo-restaurante.netlify.app/"
     },
     {
         id: 5,
-        imagen: "../../public/img/controlCitas.png",
+        imagen: controlCitas,
         nombre: "Control de citas",
         descripcion: "Lleva el control de un consultorio veterinario",
         url: "https://cheery-malasada-ff6fea.netlify.app/"
@@ -75,32 +85,32 @@ export const skill: SkillsType[] = [
     {
         id: 1,
         nombre: "React",
-        logo: "../../public/img/react.svg"
+        logo: react_svg
     },
     {
         id: 2,
         nombre: "TypeScript",
-        logo: "../../public/img/typescript.svg"
+        logo: typescript_svg
     },
     {
         id: 3,
         nombre: "JavaScript",
-        logo: "../../public/img/javascript.svg"
+        logo: javascript_svg
     },
     {
         id: 4,
         nombre: "HTML",
-        logo: "../../public/img/html5.svg"
+        logo: html_svg
     },
     {
         id: 5,
         nombre: "CSS",
-        logo: "../../public/img/css.svg"
+        logo: css_svg
     },
     {
         id: 6,
         nombre: "Bootstrap",
-        logo: "../../public/img/bootstrap.svg"
+        logo: bootstrap_svg
     },
 
 ]

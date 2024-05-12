@@ -1,4 +1,8 @@
 import { InfoPersonalType } from "../types"
+import gmail_svg from '../assets/img/gmail.svg'
+import github_svg from '../assets/img/github.svg'
+import linkedin_svg from '../assets/img/linkedin.svg'
+import wsp_svg from '../assets/img/whatsapp.svg'
 
 type inforPersonalTypeProps = {
   infoPersonal: InfoPersonalType
@@ -20,16 +24,16 @@ const Header = ({ infoPersonal }: inforPersonalTypeProps) => {
 
       <div className="flex justify-around">
         <a href={linkedin} target="_blank">
-          <img className="social-red" src="../../public/img/linkedin.svg" alt="" />
+          <img className="social-red" src={linkedin_svg} alt="imagen linkedin" />
         </a>
         <a href={github} target="_blank">
-          <img className="social-red git" src="../../public/img/github.svg" alt="" />
+          <img className="social-red git" src={github_svg} alt="imagen github" />
         </a>
         <a href="#sendmessage">
-          <img className="social-red" src="../../public/img/gmail.svg" alt="" />
+          <img className="social-red" src={gmail_svg} alt="imagen gmail" />
         </a>
         <a href="https://api.whatsapp.com/send?phone=573134457889" target="_blank">
-          <img className="social-red" src="../../public/img/whatsapp.svg" alt="" />
+          <img className="social-red" src={wsp_svg} alt="imagen whatapp" />
         </a>
       </div>
     </header>

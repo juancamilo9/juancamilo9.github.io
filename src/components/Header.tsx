@@ -14,11 +14,11 @@ const Header = ({ infoPersonal }: inforPersonalTypeProps) => {
 
   return (
     <header className="max-w-3xl w-full space-y-4 text-center">
-      <div className="inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-medium text-gray-700 dark:bg-gray-800 dark:text-gray-300">
+      <div className="inline-block rounded-full bg-gray-800 px-3 py-1 text-sm font-medium text-gray-700  dark:text-gray-300">
         Portafolio Web
       </div>
       <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-white">{nombre}{' '}<span className="text-green-500">{apellido}</span></h1>
-      <p className="text-xl text-gray-600 dark:text-indigo-400">
+      <p className="text-xl text-indigo-400">
         {rol}
       </p>
 

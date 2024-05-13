@@ -11,7 +11,7 @@ import { infoPersonal,proyectos,experiencia,skill } from "./data/data"
 function App() {
   return (
     
-      <main className="flex flex-col items-center justify-center min-h-screen py-12 px-4 sm:px-6 lg:px-8 bg-gray-900">
+      <main className="flex flex-col bg-gray-900 items-center justify-center min-h-screen py-12 px-4 sm:px-6 lg:px-8 ">
         <Header
             infoPersonal = {infoPersonal}
         ></Header>

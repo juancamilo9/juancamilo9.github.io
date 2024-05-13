@@ -6,10 +6,10 @@ import landingPage from '../assets/img/landingpage.png'
 import controlCitas from '../assets/img/controlCitas.png'
 import react_svg from '../assets/img/react.svg'
 import typescript_svg from '../assets/img/typescript.svg'
-import bootstrap_svg from '../assets/img/bootstrap.svg'
 import html_svg from '../assets/img/html5.svg'
 import css_svg from '../assets/img/css.svg'
 import javascript_svg from '../assets/img/javascript.svg'
+import git_svg from '../assets/img/git.svg'
 
 export const infoPersonal: InfoPersonalType = {
     nombre: "Juan Camilo",
@@ -66,19 +66,19 @@ export const experiencia: InfoWorkType[] = [
         empresa: "Geovictoria Colombia S.A.S",
         rol: "Analista Funcional",
         tiempo: "2023-Actualmente"
-    },
-    {
-        id: 2,
-        empresa: "Escobar S.A",
-        rol: "Islero",
-        tiempo: "2022-2023"
-    },
-    {
-        id: 3,
-        empresa: "Baluarte C.T.A",
-        rol: "Guarda de seguridad",
-        tiempo: "2019-2022"
     }
+    // {
+    //     id: 2,
+    //     empresa: "Escobar S.A",
+    //     rol: "Islero",
+    //     tiempo: "2022-2023"
+    // },
+    // {
+    //     id: 3,
+    //     empresa: "Baluarte C.T.A",
+    //     rol: "Guarda de seguridad",
+    //     tiempo: "2019-2022"
+    // }
 ]
 
 export const skill: SkillsType[] = [
@@ -109,8 +109,8 @@ export const skill: SkillsType[] = [
     },
     {
         id: 6,
-        nombre: "Bootstrap",
-        logo: bootstrap_svg
+        nombre: "GitHub",
+        logo: git_svg
     },
 
 ]

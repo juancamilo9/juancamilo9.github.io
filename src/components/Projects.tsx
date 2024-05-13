@@ -12,9 +12,7 @@ const Projects = ({proyecto}:ProjectsTpeProps) => {
             <img
                 src={imagen}
                 alt={nombre}
-                width="280"
-                height="250"
-                className="h-48 object-cover"
+                className="w-full h-48 object-cover"
             />
             <div className="p-4 space-y-2">
                 <h3 className="text-lg font-semibold text-gray-100">{nombre}</h3>

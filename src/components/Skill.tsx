@@ -16,7 +16,8 @@ const Skill = ({ skill }: SkillTypeProps) => {
                 <img
                     src={logo}
                     alt={nombre}
-                    
+                   
+                    className="w-full object-cover"
                 />
                 <h3 className="text-lg font-semibold text-gray-100 text-center">{nombre}</h3>
             </div>

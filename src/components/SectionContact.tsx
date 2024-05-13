@@ -16,11 +16,13 @@ const SectionContact = () => {
             .then(
                 (response: EmailJSResponseStatus) => {
                     console.log('SUCCESS!', response.status, response.text="Mensaje enviado");
+                    alert("Mensaje enviado ")
                 },
                 (error) => {
                     console.error('FAILED...', error);
                 }
             );
+            
     };
 
     return (

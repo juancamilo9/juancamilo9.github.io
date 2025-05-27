@@ -18,7 +18,7 @@ const Skill = ({ skill }: SkillTypeProps) => {
                     alt={nombre}
                     className="w-20 items-center"
                 />
-                <h3 className="text-lg font-semibold text-gray-100 text-center">{nombre}</h3>
+                <h3 className="text-lg font-semibold text-white text-center">{nombre}</h3>
             </div>
         </div>
     )

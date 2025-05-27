@@ -10,7 +10,7 @@ const Skill = ({ skill }: SkillTypeProps) => {
     const { nombre, logo } = skill
 
     return (
-        <div className="bg-white dark:bg-gray-700 rounded-lg overflow-hidden shadow-2xl">
+        <div className="bg-slate-500 rounded-lg overflow-hidden shadow-2xl">
 
             <div className="p-4 space-y-2 items-center flex justify-center flex-col">
                 <img

@@ -1,15 +1,15 @@
-import { ProyectoItemType, InfoPersonalType, InfoWorkType, SkillsType } from "../types"
-import clonGoogle from '../assets/img/google.png'
 import consumoPropina from '../assets/img/consumoPropina.png'
-import dojoTime from '../assets/img/dojoTime.png'
-import landingPage from '../assets/img/landingpage.png' 
 import controlCitas from '../assets/img/controlCitas.png'
+import css_svg from '../assets/img/css.svg'
+import dojoTime from '../assets/img/dojoTime.png'
+import git_svg from '../assets/img/git.svg'
+import clonGoogle from '../assets/img/google.png'
+import html_svg from '../assets/img/html5.svg'
+import javascript_svg from '../assets/img/javascript.svg'
+import landingPage from '../assets/img/landingpage.png'
 import react_svg from '../assets/img/react.svg'
 import typescript_svg from '../assets/img/typescript.svg'
-import html_svg from '../assets/img/html5.svg'
-import css_svg from '../assets/img/css.svg'
-import javascript_svg from '../assets/img/javascript.svg'
-import git_svg from '../assets/img/git.svg'
+import { InfoPersonalType, InfoWorkType, ProyectoItemType, SkillsType } from "../types"
 
 export const infoPersonal: InfoPersonalType = {
     nombre: "Juan Camilo",
@@ -67,12 +67,12 @@ export const experiencia: InfoWorkType[] = [
         rol: "Analista Funcional",
         tiempo: "2023-Actualmente"
     }
-    // {
-    //     id: 2,
-    //     empresa: "Escobar S.A",
-    //     rol: "Islero",
-    //     tiempo: "2022-2023"
-    // },
+    ,{
+        id: 2,
+        empresa: "Centraal Studio",
+        rol: "Ingeniero de Soporte Nivel I",
+        tiempo: "2025-"
+    },
     // {
     //     id: 3,
     //     empresa: "Baluarte C.T.A",

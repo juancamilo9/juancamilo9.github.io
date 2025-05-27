@@ -27,8 +27,8 @@ const SectionContact = () => {
 
     return (
         <section className="max-w-3xl w-full mt-12 space-y-8" id="sendmessage">
-            <h2 className="text-2xl font-bold tracking-tight dark:text-gray-100">Contactame</h2>
-            <form className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 space-y-4" ref={form} onSubmit={sendEmail}>
+            <h2 className="text-2xl font-bold tracking-tight text-gray-100">Contactame</h2>
+            <form className="bg-gray-800 dark:bg-gray-800 rounded-lg shadow-md p-6 space-y-4" ref={form} onSubmit={sendEmail}>
                 <div className="space-y-2">
                     <label
                         className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-white"
@@ -74,7 +74,7 @@ const SectionContact = () => {
                     ></textarea>
                 </div>
                 <button
-                    className="inline-flex items-center justify-center  rounded-md text-sm font-medium  transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50  text-primary-foreground h-10 px-4 py-2 w-full text-white bg-indigo-500 hover:bg-slate-600"
+                    className="inline-flex items-center justify-center  rounded-md text-sm font-medium  transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50  text-primary-foreground h-10 px-4 py-2 w-full text-white bg-indigo-500 hover:bg-indigo-800"
                     type="submit"
                 >
                     Enviar Mensaje
